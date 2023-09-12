@@ -1,0 +1,32 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0 20px;
+}
+.item {
+  width: 250px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.poster {
+  width: 250px;
+  height: 375px;
+  display: block;
+}
+.title {
+  display: flex;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+  padding: 10px 5px;
+  font-size: 18px;
+  height: 40px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.item {
+  width: 150px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.profile {
+  width: 150px;
+  height: 225px;
+}
+.details {
+  padding: 10px;
+}
+
+.character .name {
+  margin: 0;
+}
